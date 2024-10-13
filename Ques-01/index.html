@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question-01</title>
+    <title>Reverse Number</title>
+    <script>
+        function reverseNumber() {
+            // Get the input value
+            let number = document.getElementById('numberInput').value;
+
+            // Reverse the number
+            let reversedNumber = number.split('').reverse().join('');
+
+            // Set the reversed number in the output field
+            document.getElementById('output').innerText = reversedNumber;
+        }
+    </script>
 </head>
 <body>
-    <label for="">Number: </label>
-    <input type="text"><br>
-    <button>Reverse</button>
+    <h3>Javascript: Write a Javascript function that reverses a number when someone clicks on a button.</h3>
+    <label for="numberInput">Number:</label>
+    <input type="text" id="numberInput">
+    <button onclick="reverseNumber()">Reverse</button>
+    <p>Output: <span id="output"></span></p>
 </body>
 </html>
