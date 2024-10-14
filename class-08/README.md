@@ -25,3 +25,5 @@
 |--------------|----------|
 | Dhaka        | 20%      |
 | Chittagang   | 15%      |
+
+![Screenshot 2024-10-14 121231](https://github.com/user-attachments/assets/138e145b-2bbc-4c40-98b7-1421be978439)
