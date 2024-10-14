@@ -20,6 +20,7 @@
 - Add tips as it is
 - If Home Delivery = Yes, add 40 BDT, else nothing
 - Shop Location
+
 | Location     | Tax      | 
 |--------------|----------|
 | Dhaka        | 20%      |
