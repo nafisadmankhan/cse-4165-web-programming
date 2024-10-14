@@ -7,24 +7,31 @@
 </head>
 <body>
     <h1>Pineapple Store</h1>
-    <label for="">Number of Pineapple</label>
-    <input type="number" placeholder="Enter amount">
+
+    <label for="">Quantity of Pineapple</label>
+    <input id="quantity" type="number" placeholder="Enter quantity"><br><br>
+    
     <label for="">Tips</label>
-    <input type="number" placeholder="Enter amount">
+    <input id="tips" type="number" placeholder="Enter amount"><br><br>
+    
     <label for="">Home Delivery</label>
-    <input type="radio" name="radio_btn">
+    <input type="radio" name="home_delivery" value="Y">
     <label for="">Yes</label>
-    <input type="radio" name="radio_btn">
-    <label for="">No</label>
-    <label for="">Shop Location</label>
-    <select name="" id="">
-        <option value="">Dhaka</option>
-        <option value="">Chittagang</option>
-    </select>
-    <button>Generate Bill</button>
+    <input type="radio" name="home_delivery" value="n">
+    <label for="">No</label><br><br>
+    
+    <label for="">Location</label>
+    <select name="" id="location">
+        <option value="dhk">Dhaka</option>
+        <option value="ctg">Chittagang</option>
+    </select><br><br>
+
+    <button onclick="generateBill()">Generate Bill</button>
     <label for="">Your Total Bill is</label>
-    <label for=""></label>
+    <label for="" id="bill">0</label>
     <label for="">Tk</label>
+    <br><br>
+    <button onclick="reset()">Reset</button>
     <script src="6.js"></script>
 </body>
 </html>

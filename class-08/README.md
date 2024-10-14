@@ -15,7 +15,7 @@
 |--------------|----------|
 | 1 to 9       | 5%       |
 | 10 to 19     | 10%      |
-| 20 +         | 15%      |
+| 20+          | 15%      |
 
 - Add tips as it is
 - If Home Delivery = Yes, add 40 BDT, else nothing
