@@ -7,5 +7,5 @@
 4. Show the sum of two user input numbers dynamically using a label 
 
 ## Using External JavaScript
-3. Create a Calculator using Javascript
-4. Create a Shop using JavaScript
+5. Create a Calculator using Javascript
+6. Create a Shop using JavaScript

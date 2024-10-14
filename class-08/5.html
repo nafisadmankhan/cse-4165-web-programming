@@ -6,14 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>User Input Numbers</h1>
+    <h1>Calculator</h1>
     
-    <input type="text" id="number_1" oninput="addNumbers()" placeholder="Enter the first number">
-    <input type="text" id="number_2" oninput="addNumbers()" placeholder="Enter the second number">
+    <input type="text" id="number_1" placeholder="Enter the first number">
+    <input type="text" id="number_2" placeholder="Enter the second number">
     <br><br>
+
+    <button onclick="calculate('+__argument')">+</button>
+    <button onclick="calculate('-__argument')">-</button>
+    <button onclick="calculate('*__argument')">*</button>
+    <button onclick="calculate('/__argument')">/</button>
+    <button onclick="calculate('reset_arg')">Reset</button>
 
     <label id="result"></label>
     
-    <script></script>
+    <script src="5.js"></script>
 </body>
 </html>
