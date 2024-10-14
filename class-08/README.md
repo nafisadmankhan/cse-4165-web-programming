@@ -14,6 +14,7 @@
 5. Create a Calculator using Javascript <br>
 ![image](https://github.com/user-attachments/assets/8f54fa90-88fa-4630-8ae3-7591b3fb9b39)
 6. Create a Shop using JavaScript <br>
+![Screenshot 2024-10-14 121231](https://github.com/user-attachments/assets/138e145b-2bbc-4c40-98b7-1421be978439)
 - Price of each Pineapple = 12.5 Bdt
 
 | Quantity     | Discount | 
@@ -30,8 +31,6 @@
 |--------------|----------|
 | Dhaka        | 20%      |
 | Chittagang   | 15%      |
-
-![Screenshot 2024-10-14 121231](https://github.com/user-attachments/assets/138e145b-2bbc-4c40-98b7-1421be978439)
 
 - Calculation Hint
  - 12.5 x 5 = 62.5
