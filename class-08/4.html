@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>User Input Numbers</h1>
+    
+    <input type="text" id="number_1" oninput="addNumbers()" placeholder="Enter the first number">
+    <input type="text" id="number_2" oninput="addNumbers()" placeholder="Enter the second number">
+    <br><br>
+
+    <label id="result"></label>
+    
+    <script>
+        function addNumbers() {
+        var number_1 = parseFloat(document.getElementById('number_1').value) || 0;
+        var number_2 = parseFloat(document.getElementById('number_2').value) || 0;
+        
+        var sum = number_1 + number_2;
+        
+        document.getElementById('result').innerText = "Result: " + sum;
+        }
+    </script>
+</body>
+</html>

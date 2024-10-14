@@ -6,11 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <button onmouseover="changeBtnColor()" id="btn">Click Me</button>
+    <button onmouseover="changeBtnColor()" onmouseout="changeBtnColorRed()" id="btn">Click Me</button>
 
     <script>
         function changeBtnColor() {
             document.getElementById('btn').style.backgroundColor="green";
+        }
+
+        function changeBtnColorRed() {
+            document.getElementById('btn').style.backgroundColor="red";
         }
     </script>
 </body>
