@@ -27,3 +27,10 @@
 | Chittagang   | 15%      |
 
 ![Screenshot 2024-10-14 121231](https://github.com/user-attachments/assets/138e145b-2bbc-4c40-98b7-1421be978439)
+
+- Calculation Hint
+12.5 x 5 = 62.5
+62.5 x 0.95 = 59.375
+59.375 + 20 = 79.375
+79.375 + 40 = 119.375
+119.375 * 1.15 = 137.28125
