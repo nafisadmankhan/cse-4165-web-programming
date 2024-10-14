@@ -12,6 +12,7 @@
 
 ## Using External JavaScript
 5. Create a Calculator using Javascript <br>
+![image](https://github.com/user-attachments/assets/8f54fa90-88fa-4630-8ae3-7591b3fb9b39)
 6. Create a Shop using JavaScript <br>
 - Price of each Pineapple = 12.5 Bdt
 
