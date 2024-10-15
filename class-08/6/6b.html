@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Check Price</label>
+    
+    <select name="" id="fruits">
+        <option value="100">Apple</option>
+        <option value="50">Banana</option>
+        <option value="200">Orange</option>
+    </select>
+
+    <button onclick="selectFruit()">Proceed</button>
+
+    <script>
+        function selectFruit() {
+            var chosen = document.getElementById('fruits').value;
+            alert(chosen);
+        }
+    </script>
+</body>
+</html>
