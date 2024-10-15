@@ -7,20 +7,20 @@
 </head>
 <body>
     <label for="">Location</label><br><br>
-    <input type="radio" name="location" value="Home">
+    <input id="id_home" type="radio" name="location" value="Home">
     <label for="">Home</label>
-    <input type="radio" name="location" value="Work">
+    <input id="id_work" type="radio" name="location" value="Work">
     <label for="">Work</label><br><br>
     <button onclick="calcFare()">See Fare</button>
 
     <script>
         function calcFare() {
-            var location = document.querySelector('input[name="location"]:checked').value;
+            var location = document.getElementById('id_home').checked;
 
-            if (location == "Home") {
-                alert('Home Fare: 20 Bdt');
+            if (location == true) {
+                alert('Selected Home');
             } else {
-                alert('Work Fare: 100 Bdt');
+                alert('Selected Work');
             }
         }
     </script>
