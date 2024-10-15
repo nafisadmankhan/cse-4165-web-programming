@@ -25,9 +25,7 @@
 8. Write a function that adds two numbers and displays the result <br>
 ![image](https://github.com/user-attachments/assets/414bf36c-ffe2-4d59-9701-6c73bbe6652d)
 
-
-## Using embedded PHP
-
 ## Using External PHP
 9. Create a form and display what the user types <br>
+![image](https://github.com/user-attachments/assets/248e5c5d-71c2-47ca-b131-25bed6cf8e79) <br>
 ![image](https://github.com/user-attachments/assets/1f1e326d-52e1-4d8a-bdda-b0061ede532d)
