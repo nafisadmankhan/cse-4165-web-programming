@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="process.php" method="post">
+
+    
+    Number of pineapple purchased: <input type="text" id="quantity" name="quantity"><br>
+    Tips <input type="text" id="tips" name="tips"><br>
+    Home Delivery: <input type="radio" name="hd" id="hd_yes" value="1">Yes<input value="0" type="radio" name="hd" id="hd_no">No<br>
+    Shop Location: <select id="loc" name="loc">
+        <option value="d">Dhaka</option>
+        <option value="c">Chittagong</option>
+    </select><br>
+    <button type="submit">Generate Bill</button>
+
+    </form>
+    
+</body>
+</html>

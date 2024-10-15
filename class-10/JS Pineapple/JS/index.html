@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Number of pineapple purchased: <input type="text" id="quantity"><br>
+    Tips <input type="text" id="tips"><br>
+    Home Delivery: <input type="radio" name="hd" id="hd_yes">Yes<input type="radio" name="hd" id="hd_no">No<br>
+    Shop Location: <select id="loc">
+        <option value="d">Dhaka</option>
+        <option value="c">Chittagong</option>
+    </select><br>
+    <button onclick="BillCalculate()">Generate Bill</button>
+    Your Total Bill is: <label id="lbl1"></label> BDT
+    
+</body>
+<script src="script.js"></script>
+</html>
