@@ -29,3 +29,30 @@
 9. Create a form and display what the user types <br>
 ![image](https://github.com/user-attachments/assets/248e5c5d-71c2-47ca-b131-25bed6cf8e79) <br>
 ![image](https://github.com/user-attachments/assets/1f1e326d-52e1-4d8a-bdda-b0061ede532d)
+
+10. Create a Shop using PHP <br>
+![image](https://github.com/user-attachments/assets/ad926885-1850-4ffe-9c57-ecc04dc8dc26)
+![image](https://github.com/user-attachments/assets/77b5f2ae-3185-469a-a384-d080c3e596e0)
+- Price of each Pineapple = 12.5 Bdt
+
+| Quantity     | Discount | 
+|--------------|----------|
+| 1 to 9       | 5%       |
+| 10 to 19     | 10%      |
+| 20+          | 15%      |
+
+- Add tips as it is
+- If Home Delivery = Yes, add 40 BDT, else nothing
+- Shop Location
+
+| Location     | Tax      | 
+|--------------|----------|
+| Dhaka        | 20%      |
+| Chittagang   | 15%      |
+
+- Calculation Hint
+ - 12.5 x 5 = 62.5
+ - 62.5 x 0.95 = 59.375
+ - 59.375 + 20 = 79.375
+ - 79.375 + 40 = 119.375
+ - 119.375 * 1.15 = 137.28125
