@@ -56,3 +56,6 @@
  - 59.375 + 20 = 79.375
  - 79.375 + 40 = 119.375
  - 119.375 * 1.15 = 137.28125
+
+11. Multiplication Table
+- a. Table using raw HTML
