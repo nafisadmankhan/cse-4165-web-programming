@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Height (cm): </label>
+    <input type="number" id="h">
+    <label for="">Weight (lb)</label>
+    <input type="number" id="w">
+    <button onclick="calc()">Calculate</button><br><br>
+    <label for="">Calculation Result: </label>
+    <label for="" id="result"></label>
+    <label for="">Status</label>
+    <label for=""></label>
+
+    <script>
+        function calc() {
+            var cm = Number(document.getElementById('h').value);
+            var lb = Number(document.getElementById('w').value);
+
+            var meter = cm/100;
+            var kg = lb/2.2046;
+
+            var result = kg/(meter*meter);
+
+            document.getElementById('result').innerText = result.toFixed(2);
+        }
+    </script>
+</body>
+</html>

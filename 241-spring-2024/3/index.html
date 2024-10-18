@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="bill.php" method="POST">
+        <label for="">Location</label>
+        <select name="select_location" id="">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+        </select>
+        <label for="">Area</label>
+        <input type="radio" name="non_duplicate" value="Urban">
+        <label for="">Urban</label>
+        <input type="radio" name="non_duplicate" value="Rural">
+        <label for="">Rural</label>
+        <label for="">Unit Consumed</label>
+        <input type="number" name="unit">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
