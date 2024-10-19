@@ -15,6 +15,13 @@
     <button onclick="summationNumber()">Summation</button>
     <br><br>
     <p>Output: <span id="output"></span></p>
-    <script src="1.js"></script>
+
+    <script>
+        function summationNumber() {
+        let number = document.getElementById('numberInput').value;
+        // use ChatGPT
+        document.getElementById('output').innerText = number;
+        }
+    </script>
 </body>
 </html>

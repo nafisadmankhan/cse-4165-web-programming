@@ -10,8 +10,8 @@
         return $sum;
     }
 
-    $seed = 4;
-    $terms = 9;
+    $seed = 7;
+    $terms = 5;
 
     echo "Seed Value: " . $seed;
     echo "<br><br>";
