@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reverse Number</title>
+    <title>Document</title>
 </head>
 <body>
-    <h3>Javascript: Write a Javascript function that reverses a number when someone clicks on a button.</h3>
-    <label for="numberInput">Number:</label>
-    <input type="text" id="numberInput">
-    <button onclick="reverseNumber()">Reverse</button>
+    <label for="">Enter Number</label>
+    <input type="number" id="input">
+    <br><br>
+    <button onclick="reverseNumber()">Reverse Number</button>
+    <br><br>
     <p>Output: <span id="output"></span></p>
+
     <script>
+        // Function to reverse the number
         function reverseNumber() {
-        // Get the input value
-        let number = document.getElementById('numberInput').value;
+            var number = Number(document.getElementById('input').value);
+            var reversed = 0;
 
-        // Reverse the number
-        let reversedNumber = number.split('').reverse().join('');
-
-        // Set the reversed number in the output field
-        document.getElementById('output').innerText = reversedNumber;
+            while (number > 0) {
+                var digit = number % 10;  // Extract last digit
+                reversed = (reversed * 10) + digit;  // Build the reversed number
+                number = parseInt(number / 10);  // Remove the last digit
+            }
+            document.getElementById('output').innerText = "Reversed number: " + reversed;
         }
     </script>
 </body>
