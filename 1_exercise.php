@@ -3,20 +3,11 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "electricity_bill";
+    $dbname = "country";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
     
-    // Getting Data from the table
+    // SQL Operation in table
     
-
-    {
-        {
-
-            
-            // Printing the values
-            echo $row['id'] . " ";
-        } 
-    }
 ?>
